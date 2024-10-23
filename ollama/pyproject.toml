@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "swarm-ollama"
+version = "0.1.0"
+description = ""
+authors = ["sugarforever <william.1022@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+swarm = {git = "https://github.com/openai/swarm.git"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
